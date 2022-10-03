@@ -1,0 +1,65 @@
+1.-
+Funcion: number_of_food_groups()
+Se llama en la linea 4 e imprime 5
+
+2.-
+Funcion: number_of_military_branches()
+En la linea 10 se llama a otra funcion más la funcion mencionada por lo que deberia tirar error ya que no se ha definido la otra funcion
+3.-
+Funcion: number_of_books_on_hold()
+En la linea 17 se llama e imprime solo 5 ya que imprime solo el primer return
+
+4.-
+Funcion number_of_fingers()
+En la linea 24 se llama a la funcion e imprime otra vez solo 5 ya que el return esta primero que el print por lo que la funcion termina solo retornando 5
+
+
+5.-
+Funcion: number_of_great_lakes()
+En la linea 30 se llama a la funcion dejando a la variable x el valor que retorna la funcion, pero la funcion no retorna un valor si no que lo imprime por lo que imprimiria 5 y x quedaria sin un valor fijo por lo que al llamar deberia salir null
+
+6.-
+Funcion add(b,c)
+La funcion tiene un calculo, por loq ue cuando se llama a la funcion en la linea 37, primero hace el primer calculo (1+2) + el segundo calculo (2+3) y despues el tercer calculo que seria 3+5 = 7 Pero este calculo tirara error porque deberia haber puesto la funcion para que calculara ese calculo.
+
+7.-
+Funcion concatenate(b,c)
+Se llama la funcion en la linea 43 y imprime cadenas de codigo, pero como las variables son numeros, la funcion tira a error
+
+8.-
+Funcion number_of_oceans_or_fingers_or_continents
+Se llama la funcion en la linea 55, primero esta imprime 100 y despues retorna 10 ya que la b es mayor a 10.
+
+9.-
+Funcion number_of_days_in_a_week_silicon_or_triangle_sides
+Se llaman las variables en orden y se ve si b es menor que c, por lo que imprime 7 luego 14 y en la tercera imprecion es la suma de ambos numeros 7 y 14 por lo que imprime 21
+
+10.-
+Funcion addition
+la funcion cuenta con dos return por lo que solo se imprime el primero que es la suma de los numeros, que seria 8
+
+11.-
+Funcion foobar() 
+primero se imprime b que seria 500
+luego otra vez se imprime b 500
+luego se llama a la funcion y se imprime la b 300 y despues otra vez la b pero de fuera de la funcion por lo que es 500
+
+12.-
+Funcion foobar() 
+primero se imprime b que seria 500 luego otra vez b 500
+despues se llama a la funcion yy se imprime 300 y retorna 300 pero aun asi imprime el ultimmo b como 500
+
+13.-
+Funcion foobar() 
+primero se imprime b que seria 500 luego otra vez b 500
+despues se llama a la funcion yy se imprime 300 y retorna 300, b toma el valor retornado por lo que lo ultimo que impirme b es 300
+
+14.-
+Funcion foo
+Funcion bar
+solo se llama a foo por lo que imprime 1 luego se llama a la funcion bar y se imprime 3 y luego continua la funcion e imprime 2
+
+15.-
+Funcion foo
+Funcion bar
+Se llama a boo e imprime 1, luego se llama a bar e imprime 3, retorna el valor 5 por lo que x pasa a ser 5 e imprime 5, retornando a foo con 10 e imprimiento finalmente el 10
